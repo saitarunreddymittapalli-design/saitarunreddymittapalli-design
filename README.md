@@ -12,107 +12,76 @@
 
 ---
 
-## 💼 About Me
+## 🧑‍💼 About Me
 
-> **4+ years of experience** in service operations, incident management, and data-driven process optimization. Currently working at **Kaiser Permanente**, focusing on L2/L3 support, SLA compliance, and operational excellence. **MBA in Business Analytics** from New York Institute of Technology.
-
-### 🎯 Quick Stats
-- 📈 **45%** reduction in ticket resolution time
-- ✅ **97%** SLA compliance rate
-- 📉 **18%** improvement in forecast accuracy
-- 📝 **25+** SOPs and knowledge base entries created
+Detail-oriented Operations Analyst with 3+ years of experience managing high-volume transaction lifecycles in regulated environments. Skilled in identifying exceptions, enforcing SOPs, and driving process improvement. Proven record of mitigating operational risk with zero audit findings across 4 regulatory reviews and a 45% reduction in manual processing time. MBA in Business Analytics from New York Institute of Technology.
 
 ---
 
-## 💼 Current Role
+## 🎯 Current Role
 
-**Operations Analyst at Kaiser Permanente** (June 2024 - Present)
+**Operations Analyst at Kaiser Permanente** (June 2024 – Present)
 
-- Achieved 45% reduction in ticket resolution time managing 50+ weekly operational inquiries
-- Improved forecast accuracy by 18% through SQL-based troubleshooting and RCA
-- Maintained 97% SLA compliance managing 120+ L2/L3 tickets weekly
-- Created 25+ SOPs and knowledge base entries for enhanced L2/L3 support
+- Oversaw processing integrity for 50,000+ daily transactions, reducing error rates from 2.1% to 0.3%
+- Executed quality assurance audits on staff workflows, driving a 22% increase in accuracy
+- Collaborated with cross-functional service partners to resolve process gaps, achieving zero findings in 4 consecutive regulatory audits
+- Supported executive leadership in managing operational information systems with strict adherence to internal risk frameworks
 
 ---
 
 ## 💼 Professional Experience
 
-| Company | Role | Duration |
-|---------|------|----------|
-| 🏥 **Kaiser Permanente** | Operations Analyst | 2024 - Present |
-| 🏦 **Bank of America** | Operations Analyst | 2022 - 2024 |
-| 💻 **Infogrex Technologies** | Operations Analyst | 2020 - 2021 |
+- **Kaiser Permanente** — Operations Analyst *(June 2024 – Present)*
+- **Aruba Networks** — Business Operations Analyst *(Sept 2022 – May 2024)*
+  - Directed end-to-end lifecycle of business transactions ensuring policy conformance
+  - Facilitated new hire onboarding, reducing ramp-up time by 35% while maintaining 99.8% process compliance
+  - Managed cross-regional logistics and third-party vendor integration
 
 ---
 
 ## 🛠️ Technical Skills
 
-<div align="center">
+### Risk & Compliance Operations
+- Regulatory Compliance, SOX Audit, Quality Control Auditing, SOP Documentation
 
-![SQL](https://img.shields.io/badge/SQL-Expert-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-Advanced-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-Proficient-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Jira](https://img.shields.io/badge/Jira-Expert-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/Confluence-Expert-172B4D?style=flat-square&logo=confluence&logoColor=white)
-![Python](https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat-square&logo=python&logoColor=white)
+### Operations & Process
+- Process Optimization, Workflow Analysis, SOP Development, Continuous Improvement, Vendor Management
 
-</div>
+### Data Analysis
+- SQL, Excel (Advanced – Pivot Tables, VLOOKUP, Macros), Power BI, Tableau, Python (Basic), Statistical Analysis
 
-### Service Operations
-- ✅ L2/L3 Support & Incident Triage
-- ✅ Queue Management & SLA Compliance
-- ✅ Escalation & Troubleshooting
-- ✅ Root Cause Analysis (RCA)
-- ✅ Knowledge Base Documentation
-
-### Tools & Technologies
-- **Ticketing:** Jira, Confluence
-- **Data Analysis:** SQL, Excel (Advanced), Power BI
-- **Collaboration:** PowerPoint, Google Slides
-- **Process:** Workflow Automation, KPI Dashboards
-
-### Core Competencies
-- Incident Management & Resolution
-- Cross-functional Collaboration
-- Process Excellence & SOP Development
-- Stakeholder Management
-- Data Analysis & Reporting
-- UAT Coordination
+### Banking & Transaction Operations
+- Transaction Lifecycle Management, Exception Handling, Reconciliation, SLA Monitoring, Risk Mitigation
 
 ---
 
 ## 📊 Featured Project
 
-### 🏥 Hospital Readmission Prediction Analysis (MIMIC-IV)
+### Operational Risk Assessment – Transaction Lifecycle Optimization *(2024)*
 
-<div align="center">
+**Role:** Lead Operations Analyst (Simulation)
 
-![Data Analysis](https://img.shields.io/badge/Data-534K%20Admissions-blue?style=for-the-badge)
-![Accuracy](https://img.shields.io/badge/Prediction-19.5%25%20Rate-green?style=for-the-badge)
-![Tech](https://img.shields.io/badge/Tech-SQL%20%7C%20Python-orange?style=for-the-badge)
+- Conducted root-cause analysis on 5,000 simulated financial transactions, identifying and categorizing complex exceptions mirroring high-volume wealth management operations
+- Developed a QA framework to flag non-compliant entries, ensuring 100% adherence to standard policies
+- Drafted a comprehensive SOP for Escalation & Exception Handling to standardize routing of action items to internal service partners
+- Designed an optimized To-Be workflow using Visio/Excel, reducing manual data entry steps by 30%
 
-</div>
+### Hospital Readmission Prediction Analysis (MIMIC-IV)
 
-- Built comprehensive data model analyzing **534K hospital admissions** using SQL and Python
+- Built a data model analyzing 534K hospital admissions using SQL and Python
 - Developed diagnosis-based clinical features to identify chronic disease patterns
 - Achieved 19.5% readmission rate prediction aligning with external benchmarks
-- Integrated complex demographic and timeline data for predictive modeling
 
 ---
 
 ## 🎓 Education
 
-- **MBA in Business Analytics** - New York Institute of Technology (2022-2024)
-- **Bachelor's in Business Management** - Manipal Institute of Technology, India (2018-2021)
+- **MBA in Business Analytics** — New York Institute of Technology *(2022–2024)*
+- **Bachelor's in Business Management** — Manipal Institute of Technology, India *(2018–2021)*
+
+---
 
 ## 🏆 Certifications
-
-<div align="center">
-
-![Lean Six Sigma](https://img.shields.io/badge/Lean_Six_Sigma-Green_Belt-success?style=for-the-badge)
-![CAPM](https://img.shields.io/badge/CAPM-Certified-blue?style=for-the-badge)
-
-</div>
 
 - Lean Six Sigma Green Belt
 - Certified Associate in Project Management (CAPM)
@@ -121,35 +90,20 @@
 
 ## 📫 Let's Connect
 
-<div align="center">
-
-| Contact | Details |
-|---------|----------|
-| 📍 **Location** | Jersey City, NJ |
-| 📧 **Email** | saitarunreddymittapalli@gmail.com |
-| 📱 **Phone** | 401-239-7925 |
-| 🔗 **LinkedIn** | [linkedin.com/in/sai-tarun-reddy-mittapalli](https://www.linkedin.com/in/sai-tarun-reddy-mittapalli) |
-
-</div>
+- **LinkedIn:** [linkedin.com/in/sai-tarun-reddy-mittapalli](https://www.linkedin.com/in/sai-tarun-reddy-mittapalli)
+- **Email:** [saitarunreddymittapalli@gmail.com](mailto:saitarunreddymittapalli@gmail.com)
+- **Location:** Jersey City, NJ
+- **Phone:** 401-239-7925
 
 ---
 
 ## 🔍 Currently Seeking
 
-**Open to Service Operations Analyst and Business Analyst opportunities**
+Open to **Operations Analyst**, **Business Operations Analyst**, and **Business Analyst** opportunities where I can leverage my expertise in:
 
-I can leverage my experience in:
-- ✅ Incident management and L2/L3 support
-- ✅ Process optimization and automation
-- ✅ Data analysis and reporting
-- ✅ Cross-functional team collaboration
+- Transaction lifecycle management and operational risk mitigation
+- Process optimization and SOP development
+- Data analysis, reporting, and compliance (SOX, regulatory audits)
+- Cross-functional collaboration and stakeholder management
 
----
-
-<div align="center">
-
-### 🚀 *Let's build something amazing together!*
-
-**Feel free to explore my repositories and reach out for collaboration opportunities!**
-
-</div>
+Feel free to explore my repositories and reach out for collaboration opportunities!
