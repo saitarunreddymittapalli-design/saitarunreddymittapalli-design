@@ -94,6 +94,11 @@ const Analytics = () => {
     a.click();
   };
 
+  const handleExportPDF = () => {
+    generateAnalyticsPdf(claims, trendData);
+    toast.success("Analytics Report PDF exported successfully!");
+  };
+
   if (loading) {
     return (
       <div className="flex items-center justify-center h-96" data-testid="loading-state">
