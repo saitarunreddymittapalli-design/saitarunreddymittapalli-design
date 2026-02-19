@@ -239,7 +239,7 @@ export const generateUATPdf = (testScripts, defects) => {
       d.reported_date
     ]);
 
-    doc.autoTable({
+    autoTable(doc, {
       startY: yPosition,
       head: [['ID', 'Title', 'Severity', 'Status', 'Reported By', 'Date']],
       body: defectData,
