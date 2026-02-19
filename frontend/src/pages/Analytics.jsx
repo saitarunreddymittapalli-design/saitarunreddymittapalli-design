@@ -109,6 +109,14 @@ const Analytics = () => {
 
   return (
     <div className="space-y-6" data-testid="analytics-page">
+      {/* Header with Export */}
+      <div className="flex justify-end">
+        <Button onClick={handleExportPDF} data-testid="export-analytics-pdf-btn">
+          <FileText className="h-4 w-4 mr-2" />
+          Export Analytics PDF
+        </Button>
+      </div>
+
       {/* Trend Analysis Insight */}
       <Card className="bg-amber-50 border-amber-200 rounded-xl shadow-sm" data-testid="trend-insight-card">
         <CardContent className="p-6">
