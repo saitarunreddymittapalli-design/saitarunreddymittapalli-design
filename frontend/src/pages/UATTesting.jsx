@@ -82,6 +82,11 @@ const UATTesting = () => {
     }
   };
 
+  const handleExportPDF = () => {
+    generateUATPdf(testScripts, defects);
+    toast.success("UAT Test Plan PDF exported successfully!");
+  };
+
   const getStatusBadge = (status) => {
     switch (status) {
       case "Pass":
