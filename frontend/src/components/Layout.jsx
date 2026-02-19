@@ -168,10 +168,10 @@ const Layout = () => {
               </Button>
               <div className="flex items-center gap-3 pl-3 border-l border-slate-200">
                 <div className="w-9 h-9 rounded-full bg-slate-900 flex items-center justify-center">
-                  <span className="text-white font-medium text-sm">JD</span>
+                  <span className="text-white font-medium text-sm">ST</span>
                 </div>
                 <div className="hidden sm:block">
-                  <p className="text-sm font-medium text-slate-900">John Doe</p>
+                  <p className="text-sm font-medium text-slate-900">Sai Tarun Reddy</p>
                   <p className="text-xs text-slate-500">Operations Analyst</p>
                 </div>
               </div>
