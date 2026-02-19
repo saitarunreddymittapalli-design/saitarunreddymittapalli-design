@@ -17,7 +17,7 @@ Build an Auto Claims First Notice of Loss (FNOL) Workflow Optimization & System 
 - **Frontend**: React.js with Tailwind CSS, Recharts, React Flow
 - **Backend**: FastAPI (Python)
 - **Database**: MongoDB
-- **Key Libraries**: React Flow (flowcharts), Recharts (data visualization), Sonner (toasts)
+- **Key Libraries**: React Flow (flowcharts), Recharts (data visualization), jsPDF (PDF export), Sonner (toasts)
 
 ## User Personas
 1. **Operations Analyst** - Primary user for workflow analysis and KPI monitoring
@@ -35,6 +35,7 @@ Build an Auto Claims First Notice of Loss (FNOL) Workflow Optimization & System 
 - [x] Data Trend Analysis with pivot tables
 - [x] Risk Mitigation Plan cards
 - [x] Internal Communications draft
+- [x] PDF Export functionality for all documents
 
 ## What's Been Implemented (Jan 2026)
 
@@ -53,22 +54,26 @@ Build an Auto Claims First Notice of Loss (FNOL) Workflow Optimization & System 
 ### Phase 3: Business Requirements
 - Full BRD document with 5 sections
 - 3 detailed use cases (Low-Risk Auto-Approval, Regional Adjuster Assignment, High-Value Escalation)
+- **PDF Export for BRD + Use Cases**
 
 ### Phase 4: UAT Testing
 - 8 test scripts with Pass/Fail status management
 - Defect tracker with CRUD operations
 - Defect Escalation Protocol documentation
+- **PDF Export for UAT Plan**
 
 ### Phase 5: Data Analytics
 - Pivot tables by: Day of Week, Status, Claim Type, Region
 - Interactive charts
 - Raw data table with CSV export
 - Key trend insight (Monday backlog spike)
+- **PDF Export for Analytics Report**
 
 ### Phase 6: Change Management
 - 3 risk cards with mitigation steps and contingency plans
 - Internal communication email draft
 - Change management methods documentation
+- **PDF Export for Risk Mitigation Plan**
 
 ## Mock Data
 - 60 auto-generated claims with realistic data
@@ -80,11 +85,12 @@ Build an Auto Claims First Notice of Loss (FNOL) Workflow Optimization & System 
 
 ### P0 (Critical) - COMPLETED
 - All deliverables implemented
+- PDF Export functionality added
 
 ### P1 (High Priority) - Future
 - User authentication for role-based access
-- Export to PDF functionality
 - Print-friendly views
+- Dark mode toggle
 
 ### P2 (Medium Priority) - Future
 - Email notifications integration
@@ -92,6 +98,5 @@ Build an Auto Claims First Notice of Loss (FNOL) Workflow Optimization & System 
 - Version history for documents
 
 ## Next Tasks
-- Consider adding interactive PDF export for BRD
-- Add dark mode toggle
-- Implement claim search/filter functionality
+- Add claim search/filter functionality
+- Implement dark mode toggle
