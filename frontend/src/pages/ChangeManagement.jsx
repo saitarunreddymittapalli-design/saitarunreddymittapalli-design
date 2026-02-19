@@ -2,8 +2,11 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Shield, AlertTriangle, CheckCircle, Mail, Users, Clock, ArrowRight } from "lucide-react";
+import { Shield, AlertTriangle, CheckCircle, Mail, Users, Clock, ArrowRight, Download } from "lucide-react";
+import { generateRiskPdf } from "@/utils/pdfExport";
+import { toast } from "sonner";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
