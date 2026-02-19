@@ -1,7 +1,9 @@
 # Auto Claims FNOL Workflow Optimization & System UAT
 
 ## Project Overview
-Portfolio/Resume project demonstrating operations analysis, business analysis, and workflow optimization skills for auto insurance claims processing at Mapfre.
+Portfolio/Resume project by **Sai Tarun Reddy** (Operations Analyst) demonstrating operations analysis, business analysis, and workflow optimization skills for auto insurance claims processing at Mapfre.
+
+**Contact**: saitarunreddymittapalli@gmail.com
 
 ## Original Problem Statement
 Build an Auto Claims First Notice of Loss (FNOL) Workflow Optimization & System UAT project including:
