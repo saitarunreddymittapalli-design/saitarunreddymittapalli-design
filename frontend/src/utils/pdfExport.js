@@ -394,7 +394,7 @@ export const generateRiskPdf = (risks) => {
     doc.setPage(i);
     doc.setFontSize(8);
     doc.setTextColor(148, 163, 184);
-    doc.text(`MAPFRE FNOL System - Risk Plan | Page ${i} of ${pageCount}`, pageWidth / 2, 290, { align: 'center' });
+    doc.text(`${AUTHOR.name} | ${AUTHOR.email} | Page ${i} of ${pageCount}`, pageWidth / 2, 290, { align: 'center' });
   }
 
   doc.save('FNOL_Risk_Mitigation_Plan.pdf');
@@ -406,12 +406,12 @@ export const generateAnalyticsPdf = (claims, trendData) => {
 
   // Header
   doc.setFillColor(15, 23, 42);
-  doc.rect(0, 0, pageWidth, 35, 'F');
+  doc.rect(0, 0, pageWidth, 42, 'F');
   
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(20);
   doc.setFont('helvetica', 'bold');
-  doc.text('Data Trend Analysis Report', 14, 18);
+  doc.text('Data Trend Analysis Report', 14, 16);
   
   doc.setFontSize(11);
   doc.setFont('helvetica', 'normal');
