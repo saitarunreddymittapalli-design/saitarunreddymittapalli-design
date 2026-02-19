@@ -173,10 +173,14 @@ export const generateUATPdf = (testScripts, defects) => {
   
   doc.setFontSize(11);
   doc.setFont('helvetica', 'normal');
-  doc.text('Auto Claims FNOL Workflow Optimization', 14, 28);
+  doc.text('Auto Claims FNOL Workflow Optimization', 14, 26);
+  
+  // Author badge
+  doc.setFontSize(9);
+  doc.text(`Prepared by: ${AUTHOR.name} | ${AUTHOR.title}`, 14, 38);
 
   // Test Summary
-  let yPosition = 50;
+  let yPosition = 55;
   doc.setTextColor(15, 23, 42);
   doc.setFontSize(14);
   doc.setFont('helvetica', 'bold');
