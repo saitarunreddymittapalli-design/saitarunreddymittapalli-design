@@ -297,7 +297,7 @@ export const generateUATPdf = (testScripts, defects) => {
     doc.setPage(i);
     doc.setFontSize(8);
     doc.setTextColor(148, 163, 184);
-    doc.text(`MAPFRE FNOL System - UAT Plan | Page ${i} of ${pageCount}`, pageWidth / 2, 290, { align: 'center' });
+    doc.text(`${AUTHOR.name} | ${AUTHOR.email} | Page ${i} of ${pageCount}`, pageWidth / 2, 290, { align: 'center' });
   }
 
   doc.save('FNOL_UAT_Test_Plan.pdf');
