@@ -1,6 +1,13 @@
 import jsPDF from 'jspdf';
 import autoTable from 'jspdf-autotable';
 
+// Author info for all PDFs
+const AUTHOR = {
+  name: 'Sai Tarun Reddy',
+  title: 'Operations Analyst',
+  email: 'saitarunreddymittapalli@gmail.com'
+};
+
 export const generateBRDPdf = (brd, useCases) => {
   const doc = new jsPDF();
   const pageWidth = doc.internal.pageSize.getWidth();
@@ -8,19 +15,23 @@ export const generateBRDPdf = (brd, useCases) => {
 
   // Header
   doc.setFillColor(15, 23, 42); // Slate-900
-  doc.rect(0, 0, pageWidth, 40, 'F');
+  doc.rect(0, 0, pageWidth, 45, 'F');
   
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(22);
   doc.setFont('helvetica', 'bold');
-  doc.text('Business Requirements Document', 14, 20);
+  doc.text('Business Requirements Document', 14, 18);
   
   doc.setFontSize(12);
   doc.setFont('helvetica', 'normal');
-  doc.text(`${brd.project}`, 14, 30);
-  doc.text(`Version ${brd.version} | ${brd.date}`, 14, 36);
+  doc.text(`${brd.project}`, 14, 28);
+  doc.text(`Version ${brd.version} | ${brd.date}`, 14, 35);
+  
+  // Author badge
+  doc.setFontSize(9);
+  doc.text(`Prepared by: ${AUTHOR.name} | ${AUTHOR.title}`, 14, 42);
 
-  yPosition = 55;
+  yPosition = 60;
   doc.setTextColor(15, 23, 42);
 
   // Sections
