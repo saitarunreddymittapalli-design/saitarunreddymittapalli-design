@@ -27,7 +27,9 @@ import {
   LineChart,
   Line
 } from "recharts";
-import { TrendingUp, Download, AlertTriangle, Lightbulb } from "lucide-react";
+import { TrendingUp, Download, AlertTriangle, Lightbulb, FileText } from "lucide-react";
+import { generateAnalyticsPdf } from "@/utils/pdfExport";
+import { toast } from "sonner";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
