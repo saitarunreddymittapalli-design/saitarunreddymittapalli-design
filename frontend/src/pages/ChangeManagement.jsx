@@ -41,6 +41,11 @@ const ChangeManagement = () => {
     }
   };
 
+  const handleExportPDF = () => {
+    generateRiskPdf(risks);
+    toast.success("Risk Mitigation Plan PDF exported successfully!");
+  };
+
   if (loading) {
     return (
       <div className="flex items-center justify-center h-96" data-testid="loading-state">
@@ -51,6 +56,14 @@ const ChangeManagement = () => {
 
   return (
     <div className="space-y-6" data-testid="change-management-page">
+      {/* Header with Export */}
+      <div className="flex justify-end">
+        <Button onClick={handleExportPDF} data-testid="export-risk-pdf-btn">
+          <Download className="h-4 w-4 mr-2" />
+          Export Risk Plan PDF
+        </Button>
+      </div>
+
       <Tabs defaultValue="risks" className="w-full">
         <TabsList className="grid w-full max-w-md grid-cols-2 mb-6">
           <TabsTrigger value="risks" data-testid="risks-tab">
