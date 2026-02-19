@@ -100,8 +100,23 @@ const Layout = () => {
             })}
           </nav>
 
-          {/* Footer */}
+          {/* Portfolio Info */}
           <div className="p-4 border-t border-slate-800">
+            <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-4 border border-slate-700">
+              <p className="text-slate-400 text-xs uppercase tracking-wider mb-2">Portfolio Project By</p>
+              <p className="text-white font-semibold text-sm">Sai Tarun Reddy</p>
+              <p className="text-slate-400 text-xs mt-1">Operations Analyst</p>
+              <a 
+                href="mailto:saitarunreddymittapalli@gmail.com" 
+                className="text-emerald-400 text-xs mt-2 block hover:text-emerald-300 transition-colors"
+              >
+                saitarunreddymittapalli@gmail.com
+              </a>
+            </div>
+          </div>
+
+          {/* System Status */}
+          <div className="p-4 pt-0">
             <div className="bg-slate-800 rounded-lg p-4">
               <p className="text-slate-400 text-xs mb-2">System Status</p>
               <div className="flex items-center gap-2">
