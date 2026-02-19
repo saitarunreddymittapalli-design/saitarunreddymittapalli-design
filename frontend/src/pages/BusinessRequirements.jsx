@@ -44,6 +44,13 @@ const BusinessRequirements = () => {
     );
   }
 
+  const handleExportPDF = () => {
+    if (brd && useCases) {
+      generateBRDPdf(brd, useCases);
+      toast.success("BRD PDF exported successfully!");
+    }
+  };
+
   return (
     <div className="space-y-6" data-testid="business-requirements-page">
       {/* Header Info */}
@@ -62,7 +69,13 @@ const BusinessRequirements = () => {
                 <span>Project: {brd?.project}</span>
               </div>
             </div>
-            <Badge className="bg-emerald-50 text-emerald-700">Approved</Badge>
+            <div className="flex items-center gap-3">
+              <Badge className="bg-emerald-50 text-emerald-700">Approved</Badge>
+              <Button onClick={handleExportPDF} data-testid="export-brd-pdf-btn">
+                <Download className="h-4 w-4 mr-2" />
+                Export PDF
+              </Button>
+            </div>
           </div>
         </CardContent>
       </Card>
