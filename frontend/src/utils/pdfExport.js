@@ -446,7 +446,7 @@ export const generateAnalyticsPdf = (claims, trendData) => {
       ((d.count / claims.length) * 100).toFixed(1) + '%'
     ]);
 
-    doc.autoTable({
+    autoTable(doc, {
       startY: yPosition,
       head: [['Day', 'Count', '% of Total']],
       body: dayData,
@@ -471,7 +471,7 @@ export const generateAnalyticsPdf = (claims, trendData) => {
       ((t.count / claims.length) * 100).toFixed(1) + '%'
     ]);
 
-    doc.autoTable({
+    autoTable(doc, {
       startY: yPosition,
       head: [['Claim Type', 'Count', '% of Total']],
       body: typeData,
