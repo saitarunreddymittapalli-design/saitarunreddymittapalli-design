@@ -536,7 +536,7 @@ export const generateAnalyticsPdf = (claims, trendData) => {
     doc.setPage(i);
     doc.setFontSize(8);
     doc.setTextColor(148, 163, 184);
-    doc.text(`MAPFRE FNOL System - Analytics Report | Page ${i} of ${pageCount}`, pageWidth / 2, 290, { align: 'center' });
+    doc.text(`${AUTHOR.name} | ${AUTHOR.email} | Page ${i} of ${pageCount}`, pageWidth / 2, 290, { align: 'center' });
   }
 
   doc.save('FNOL_Data_Trend_Analysis.pdf');
