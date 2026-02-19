@@ -309,18 +309,22 @@ export const generateRiskPdf = (risks) => {
 
   // Header
   doc.setFillColor(245, 158, 11); // Amber
-  doc.rect(0, 0, pageWidth, 35, 'F');
+  doc.rect(0, 0, pageWidth, 42, 'F');
   
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(20);
   doc.setFont('helvetica', 'bold');
-  doc.text('Risk Mitigation Plan', 14, 18);
+  doc.text('Risk Mitigation Plan', 14, 16);
   
   doc.setFontSize(11);
   doc.setFont('helvetica', 'normal');
-  doc.text('Auto Claims FNOL Workflow Optimization', 14, 28);
+  doc.text('Auto Claims FNOL Workflow Optimization', 14, 26);
+  
+  // Author badge
+  doc.setFontSize(9);
+  doc.text(`Prepared by: ${AUTHOR.name} | ${AUTHOR.title}`, 14, 38);
 
-  let yPosition = 50;
+  let yPosition = 55;
 
   risks.forEach((risk, index) => {
     if (yPosition > 200) {
