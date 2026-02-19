@@ -17,8 +17,9 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { ClipboardCheck, Bug, Plus, CheckCircle, XCircle, Clock, AlertTriangle } from "lucide-react";
+import { ClipboardCheck, Bug, Plus, CheckCircle, XCircle, Clock, AlertTriangle, Download } from "lucide-react";
 import { toast } from "sonner";
+import { generateUATPdf } from "@/utils/pdfExport";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
