@@ -415,9 +415,15 @@ export const generateAnalyticsPdf = (claims, trendData) => {
   
   doc.setFontSize(11);
   doc.setFont('helvetica', 'normal');
-  doc.text('Auto Claims FNOL - Last 30 Days', 14, 28);
+  doc.setFontSize(11);
+  doc.setFont('helvetica', 'normal');
+  doc.text('Auto Claims FNOL - Last 30 Days', 14, 26);
+  
+  // Author badge
+  doc.setFontSize(9);
+  doc.text(`Prepared by: ${AUTHOR.name} | ${AUTHOR.title}`, 14, 38);
 
-  let yPosition = 50;
+  let yPosition = 55;
 
   // Key Insight Box
   doc.setFillColor(254, 243, 199); // Amber-50
