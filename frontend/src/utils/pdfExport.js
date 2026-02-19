@@ -495,7 +495,7 @@ export const generateAnalyticsPdf = (claims, trendData) => {
       ((r.count / claims.length) * 100).toFixed(1) + '%'
     ]);
 
-    doc.autoTable({
+    autoTable(doc, {
       startY: yPosition,
       head: [['Region', 'Count', '% of Total']],
       body: regionData,
