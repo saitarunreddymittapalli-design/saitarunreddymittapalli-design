@@ -125,6 +125,14 @@ const UATTesting = () => {
 
   return (
     <div className="space-y-6" data-testid="uat-testing-page">
+      {/* Header with Export */}
+      <div className="flex justify-end">
+        <Button onClick={handleExportPDF} data-testid="export-uat-pdf-btn">
+          <Download className="h-4 w-4 mr-2" />
+          Export UAT Plan PDF
+        </Button>
+      </div>
+
       {/* Summary Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         <Card className="bg-white rounded-xl border border-slate-200 shadow-sm" data-testid="total-tests-card">
