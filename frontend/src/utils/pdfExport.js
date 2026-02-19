@@ -199,7 +199,7 @@ export const generateUATPdf = (testScripts, defects) => {
     script.tested_date || '-'
   ]);
 
-  doc.autoTable({
+  autoTable(doc, {
     startY: yPosition,
     head: [['ID', 'Title', 'Steps', 'Status', 'Tested By', 'Date']],
     body: tableData,
