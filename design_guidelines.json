@@ -1,0 +1,140 @@
+{
+  "project_name": "Auto Claims FNOL Optimization & UAT",
+  "design_philosophy": {
+    "theme": "Swiss & High-Contrast",
+    "vibe": "Professional, Data-Driven, Trustworthy, Efficient",
+    "core_values": [
+      "Clarity over Decoration",
+      "Data Density with Breathing Room",
+      "Operational Precision"
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Manrope, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-4xl font-bold tracking-tight",
+      "h2": "text-3xl font-semibold tracking-tight",
+      "h3": "text-2xl font-semibold",
+      "body": "text-base leading-relaxed",
+      "small": "text-sm text-muted-foreground",
+      "tiny": "text-xs font-medium uppercase tracking-wider"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "name": "Deep Slate",
+        "hex": "#0F172A",
+        "tailwind": "bg-slate-900 text-white"
+      },
+      "secondary": {
+        "name": "Crisp White",
+        "hex": "#FFFFFF",
+        "tailwind": "bg-white text-slate-900"
+      },
+      "accent": {
+        "name": "Signal Red",
+        "hex": "#EF4444",
+        "tailwind": "bg-red-500 text-white",
+        "usage": "Alerts, Risk Mitigation, Critical KPIs"
+      },
+      "success": {
+        "name": "Emerald",
+        "hex": "#10B981",
+        "tailwind": "text-emerald-600 bg-emerald-50",
+        "usage": "Positive Trends, Completed Tests"
+      },
+      "neutral": {
+        "surface": "#F8FAFC",
+        "border": "#E2E8F0"
+      }
+    },
+    "backgrounds": {
+      "app": "bg-slate-50",
+      "card": "bg-white",
+      "sidebar": "bg-slate-900"
+    }
+  },
+  "layout": {
+    "grid_system": "Bento Grid",
+    "spacing": {
+      "container_padding": "p-6 md:p-8 lg:p-12",
+      "gap": "gap-6",
+      "section_spacing": "py-12"
+    },
+    "structure": {
+      "dashboard": "grid grid-cols-1 md:grid-cols-4 gap-6",
+      "detail_view": "grid grid-cols-1 lg:grid-cols-3 gap-8"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-slate-900 text-white hover:bg-slate-800 rounded-md px-4 py-2 font-medium transition-all shadow-sm hover:shadow-md",
+      "secondary": "bg-white text-slate-900 border border-slate-200 hover:bg-slate-50 rounded-md px-4 py-2 font-medium transition-all",
+      "danger": "bg-red-50 text-red-600 hover:bg-red-100 border border-red-200 rounded-md px-4 py-2 font-medium"
+    },
+    "cards": {
+      "base": "bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow duration-200",
+      "metric": "p-6 flex flex-col justify-between h-full relative overflow-hidden"
+    },
+    "inputs": {
+      "base": "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "visual_enhancers": {
+    "shadows": "shadow-[0_2px_8px_rgba(0,0,0,0.04)]",
+    "borders": "border border-slate-200",
+    "glassmorphism": "backdrop-blur-md bg-white/80 border-b border-white/20",
+    "gradients": "None. Use solid colors for professional clarity."
+  },
+  "image_urls": {
+    "evidence": [
+      {
+        "url": "https://images.pexels.com/photos/11985980/pexels-photo-11985980.jpeg",
+        "alt": "Car bumper damage close-up",
+        "category": "claim_evidence"
+      },
+      {
+        "url": "https://images.pexels.com/photos/33749906/pexels-photo-33749906.jpeg",
+        "alt": "Vehicle side impact",
+        "category": "claim_evidence"
+      }
+    ],
+    "people": [
+      {
+        "url": "https://images.pexels.com/photos/7709148/pexels-photo-7709148.jpeg",
+        "alt": "Call center agent with headset",
+        "category": "support_agent"
+      }
+    ]
+  },
+  "charts": {
+    "library": "recharts",
+    "styles": {
+      "grid": "stroke-slate-100 stroke-dasharray-4",
+      "tooltip": "bg-slate-900 text-white border-none rounded-lg shadow-xl p-3",
+      "colors": ["#0F172A", "#EF4444", "#10B981", "#F59E0B", "#6366F1"]
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. INSTALLATION: Run 'npm install reactflow lucide-react recharts framer-motion clsx tailwind-merge' immediately.",
+    "2. DASHBOARD: Build a 'Bento Grid' layout. Top row: 4 Key Metrics (Avg Resolution Time, Auto-Route %, Escalation Rate, CSAT). Middle row: Large Area Chart (Claim Volume Trend) + Pie Chart (Claim Types). Bottom row: Recent Activity List.",
+    "3. FLOWCHARTS: Use 'React Flow' for the 'As-Is' vs 'To-Be' comparison. Create two tabs. 'As-Is' should look complex/messy (red edges). 'To-Be' should look streamlined (green edges).",
+    "4. UAT SECTION: Create a table with 'Pass/Fail' toggle badges. Use the 'Emerald' color for Pass and 'Red' for Fail.",
+    "5. MOCK DATA: Generate realistic JSON data for 50+ claims. Use fields: ClaimID, PolicyHolder, Date, Type, Status (Open, Closed, Escalated), Amount, AutoRouted (Boolean).",
+    "6. NAVIGATION: Sidebar navigation with icons: Dashboard, Workflow Analysis, Business Requirements, UAT Testing, Analytics, Settings.",
+    "7. ACCESSIBILITY: Ensure all text has sufficient contrast. Use 'Manrope' for headings to give it a distinct personality."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Do not use generic gradients.",
+    "Use 'sonner' for toasts.",
+    "Use 'lucide-react' for icons.",
+    "Ensure all interactive elements have 'data-testid'.",
+    "Use 'clsx' and 'tailwind-merge' for class manipulation.",
+    "Create a 'Layout' component that wraps pages with the Sidebar and Header."
+  ]
+}
