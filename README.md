@@ -2,7 +2,7 @@
 
 # Hi, I'm Sai Tarun Reddy 👋
 
-### Sales Operations Analyst | Business Analyst | Data Analytics Professional
+### "Healthcare Business Analyst | Provider Operations | QA Frameworks | SQL | Power BI | CBAP Certified" | Business Analyst | Data Analytics Professional
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sai-tarun-reddy-mittapalli)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:saitarunreddymittapalli@gmail.com)
